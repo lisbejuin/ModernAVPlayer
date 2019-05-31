@@ -6,6 +6,14 @@ All notable changes to this project will be documented in this file.
 * Fix:
 	* Retain cycle in example project
 
+## [1.2.1]
+* Dependencies:
+	* [pod] Quick -> 2.1.0
+	* [pod] Nimble -> 8.0.1
+	* [pod] RxSwift -> 5.0
+	* [pod] RxSwift -> 5.0
+	* [pod] SwiftyMocky -> 3.3.1
+
 ## [1.2.0]
 * Feature:
 	* Support swift 5

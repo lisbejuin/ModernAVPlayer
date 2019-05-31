@@ -2,32 +2,36 @@ PODS:
   - ModernAVPlayer/Core (1.2.0)
   - ModernAVPlayer/RxSwift (1.2.0):
     - ModernAVPlayer/Core
-    - RxCocoa (~> 4.5)
-    - RxSwift (~> 4.5)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
   - Nimble (8.0.1)
-  - Quick (2.0.0)
-  - RxCocoa (4.5.0):
-    - RxSwift (>= 4.4.2, ~> 4.4)
-  - RxSwift (4.5.0)
-  - Sourcery (0.16.0)
-  - SwiftLint (0.27.0)
-  - SwiftyMocky (3.2.0):
-    - SwiftyMocky/Core (= 3.2.0)
-  - SwiftyMocky/Core (3.2.0):
-    - Sourcery (> 0.16)
+  - Quick (2.1.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - Sourcery (0.16.1)
+  - SwiftLint (0.32.0)
+  - SwiftyMocky (3.3.1):
+    - SwiftyMocky/Core (= 3.3.1)
+  - SwiftyMocky/Core (3.3.1):
+    - Sourcery (>= 0.16)
 
 DEPENDENCIES:
   - ModernAVPlayer/RxSwift (from `.`)
   - Nimble (= 8.0.1)
-  - Quick (= 2.0.0)
-  - SwiftLint (= 0.27.0)
-  - SwiftyMocky (= 3.2.0)
+  - Quick (= 2.1.0)
+  - SwiftLint (= 0.32.0)
+  - SwiftyMocky (= 3.3.1)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Nimble
     - Quick
     - RxCocoa
+    - RxRelay
     - RxSwift
     - Sourcery
     - SwiftLint
@@ -38,15 +42,16 @@ EXTERNAL SOURCES:
     :path: "."
 
 SPEC CHECKSUMS:
-  ModernAVPlayer: 81b9e436bc16b8e530abc448eaeadf2bd97be597
+  ModernAVPlayer: c07dfa869b5a410256a50dcffb7b3604c590ae77
   Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
-  Quick: ce1276c7c27ba2da3cb2fd0cde053c3648b3b22d
-  RxCocoa: cbf70265dc65a981d4ac982e513c10cf23df24a0
-  RxSwift: f172070dfd1a93d70a9ab97a5a01166206e1c575
-  Sourcery: 3e55aad9719ee5782ab81eb16addd44d272e4d13
-  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
-  SwiftyMocky: 20ee055796bb023142e83a23bee86d43ecb6c29a
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  Sourcery: 16779170d35ee204666843b09031f36721a84bcc
+  SwiftLint: 009a898ef2a1c851f45e1b59349bf6ff2ddc990d
+  SwiftyMocky: ece1c006fab5a3fc3d8b94fd8f2175743b7e11ac
 
-PODFILE CHECKSUM: 9eb04cf793d63bd71ca4f9c9a7ce2aaabfba6b3c
+PODFILE CHECKSUM: c056477254d1a7d9d6bc894348100f0e097a0d45
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.7.1
